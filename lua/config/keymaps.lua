@@ -31,3 +31,4 @@ keymap("i", "j;", "<Esc>o", opts)
 keymap("i", "j:", "<Esc>O", opts)
 
 keymap("n", "<space>fB", ":Telescope file_browser path=%:p:h select_buffer=true<CR>", { desc = "File Browser" })
+keymap("n", "<space>fN", ":Telescope notify<CR>", { desc = "Find Notifications" })
