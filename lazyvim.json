@@ -1,6 +1,7 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.coding.tabnine",
+    "lazyvim.plugins.extras.coding.codeium",
+    "lazyvim.plugins.extras.coding.native_snippets",
     "lazyvim.plugins.extras.editor.navic",
     "lazyvim.plugins.extras.formatting.black",
     "lazyvim.plugins.extras.formatting.prettier",
@@ -12,4 +13,3 @@
   },
   "version": 3
 }
-
