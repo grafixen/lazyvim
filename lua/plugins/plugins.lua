@@ -3,6 +3,20 @@
 
 return {
   -- Utils
+  {
+    "lmburns/lf.nvim",
+    cmd = "Lf",
+    dependencies = { "nvim-lua/plenary.nvim", "akinsho/toggleterm.nvim" },
+    opts = {
+      winblend = 0,
+      highlights = { NormalFloat = { guibg = "NONE" } },
+      border = "single",
+      escape_quit = true,
+    },
+    keys = {
+      { "<leader>ff", "<cmd>Lf<cr>", desc = "NeoTree" },
+    },
+  },
   { "terryma/vim-multiple-cursors" },
   {
     "christoomey/vim-tmux-navigator",
