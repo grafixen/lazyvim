@@ -14,7 +14,7 @@ return {
       escape_quit = true,
     },
     keys = {
-      { "<leader>ff", "<cmd>Lf<cr>", desc = "NeoTree" },
+      { "<leader>fl", "<cmd>Lf<cr>", desc = "LF File Manager" },
     },
   },
   { "terryma/vim-multiple-cursors" },
