@@ -15,6 +15,16 @@ return {
           { "<leader>cT", "<cmd>TSToolsFileReference<CR>", desc = "Reference Files" },
         },
       },
+      pyright = {
+        analysis = {
+          typeCheckingMode = "basic",
+          diagnosticMode = "workspace",
+          inlayHints = {
+            variableTypes = true,
+            functionReturnTypes = true,
+          },
+        },
+      },
     },
   },
 }
